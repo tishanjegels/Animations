@@ -1,0 +1,17 @@
+ /* The animation code */
+@keyframes MyInstagram {
+  0%  {transform: translateX(200px);}
+  25% {transform: translateY(200px);}
+  50% {transform: translateX(200px);}
+  100%  {transform: scale(2);}
+}
+
+/* The element to apply the animation to */
+img {
+  width: 100px;
+  height: 100px;
+  animation-name: MyInstagram ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  filter: contrast(80%); 
+}
